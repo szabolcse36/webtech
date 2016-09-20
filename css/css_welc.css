@@ -1,0 +1,9 @@
+#img {
+
+width:874px;
+height:470px;
+margin: auto;
+border: 3px outset red;
+background-image : url("../img/welc_img.jpg");
+background-size: cover;
+}

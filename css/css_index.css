@@ -1,0 +1,95 @@
+body {
+background-color: #667788;
+background: url("../img/bckgrnd.jpg");
+background-size: cover;
+background-attachment: fixed;
+}
+#elv  {
+width:900px;
+height:6px;
+background-color: #667788;
+margin:auto;
+opacity:0.1;
+}
+
+
+#bemut {
+text-shadow: 2px 1px white;
+width: 900px;
+height: 17px;
+margin: auto;
+color: black;
+padding: 5px;
+font-family: Lucida Console;
+border-top: solid black;
+}
+
+#logo{
+width: 910px;
+height: 205px;
+margin: auto;
+background-image : url("../img/banner.jpg");
+background-size: cover;
+border-bottom-left-radius: 290px;
+opacity:0.9;
+}
+
+#menusor a {
+text-shadow: 2px 1px #800000;
+color:white;
+
+font-family: Arial Black;
+}
+
+#menusor ul li {
+transition: all 1s ease;
+display : inline-block;
+width : 155px;
+padding: 5px;
+margin : 14px;
+
+border-left : 10px ridge #00BFFF;
+text-align : center;
+}
+	
+#menusor ul li:HOVER{
+background-color: gray;
+}
+
+#menusor {
+width: 910px;
+height: 60px;
+padding: 0px;
+font-weight: bold;
+background: url("../img/menu_bckgrnd.jpg");
+margin: auto;
+margin-top: -16px;
+border-top-left-radius:67px;
+border-top-right-radius:0px;
+}
+
+#content {
+width: 880px;
+margin: auto;
+background-color: black;
+color:white;
+font-size: 14px;
+font-family: Lucida Console;
+padding: 15px;
+opacity:0.8;
+}
+
+#foot {
+text-align: right;
+text-shadow: 2px 1px blue;
+width: 900px;
+height: 17px;
+background-color: black;
+margin: auto;
+color: orange;
+padding: 5px;
+font-family: Lucida Console;
+}
+
+
+
