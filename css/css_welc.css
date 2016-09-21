@@ -7,3 +7,29 @@ border: 3px outset red;
 background-image : url("../img/welc_img.jpg");
 background-size: cover;
 }
+
+#news {
+float:right;
+width: 200px;
+height: 300px;
+background: #778899;
+opacity:0.9;
+border-left: 3px outset red;
+border-bottom: 3px outset red;
+overflow: auto;
+}
+
+#news .newsItem {
+    width : auto;
+    padding : auto;
+    border : 2px solid white;
+    background : black;
+}
+
+#news .newsItemHeader {
+    text-transform : uppercase;
+	font-size : 16px;
+}
+#news .newsItemContent {
+    font-size : 14px;
+    font-style : oblique;
