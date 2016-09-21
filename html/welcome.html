@@ -1,9 +1,27 @@
-<html>
+﻿<html>
 <head>
 <link rel="stylesheet" href="../css/css_welc.css" ></link>
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript">
+$.getJSON('news.json', function(data) {
+					$.each(data, function(key, val) {
+						$('#news').append(
+								'<div class="newsItem"><div class="newsItemHeader">'
+										+ val['title']
+										+ '</div><p><div class="newsItemContent">'
+										+ val['teaser'] + '</div></div>');
+					});
+				});
+				
+
+</script>
 </head>
 <body>
-<div id="img"></div>
+
+<div id="img">
+<div id="news">
+</div>
+</div>
 </body>
 </html>
 
