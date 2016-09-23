@@ -22,7 +22,7 @@ overflow: auto;
 #news .newsItem {
     width : auto;
     padding : auto;
-    border : 2px solid white;
+   
     background : black;
 }
 
